@@ -6,13 +6,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 from PIL import Image
 from io import BytesIO
-#from geopy.distance import geodesic
-from geopy import distance
-import geopandas as gpd
-from shapely.geometry import Point
 import requests
 from bs4 import BeautifulSoup
 import urllib
+#from geopy.distance import geodesic
+#from geopy import distance
+#import geopandas as gpd
+#from shapely.geometry import Point
 
 # 1 - Carregar os datasets
 df_rec = pd.read_csv('df_rec.csv')
